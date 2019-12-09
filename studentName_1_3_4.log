@@ -1,0 +1,119 @@
+# IPython log file
+
+# Mon, 09 Dec 2019 13:02:17
+def food_id(food):
+    '''Returns categorization of food
+    
+    food is a string
+    returns a string of categories
+    '''
+    # The data
+    fruits = ['apple', 'banana', 'orange']
+    citrus = ['orange']
+    starchy = ['banana', 'potato']
+    
+    # check the category and report
+    if food in fruits:
+        if food in citrus:
+            return 'Citrus, Fruit'
+        else:
+            return 'NOT Citrus, Fruit'
+    else:
+        if food in starchy
+            return 'Starchy, NOT Fruit'
+        else:
+            return 'NOT Starchy, NOT Fruit'# Mon, 09 Dec 2019 13:02:31
+def food_id(food):
+    '''Returns categorization of food
+    
+    food is a string
+    returns a string of categories
+    '''
+    # The data
+    fruits = ['apple', 'banana', 'orange']
+    citrus = ['orange']
+    starchy = ['banana', 'potato']
+    
+    # check the category and report
+    if food in fruits:
+        if food in citrus:
+            return 'Citrus, Fruit'
+        else:
+            return 'NOT Citrus, Fruit'
+    else:
+        if food in starchy:
+            return 'Starchy, NOT Fruit'
+        else:
+            return 'NOT Starchy, NOT Fruit'# Mon, 09 Dec 2019 13:02:46
+food_id('apple')#[Out]# 'NOT Citrus, Fruit'
+# Mon, 09 Dec 2019 13:12:49
+def food_id_test():
+    ''' Unit test for food_id
+    returns True if good, returns False and prints error if not
+    good
+    '''
+    works = True
+    if food_id('orange') != 'Citrus, Fruit':
+        works = False
+        print ('orange bug in food id()')
+    if food_id('banana') != 'NOT citrus, Fruit':
+    # Mon, 09 Dec 2019 13:14:26
+def food_id_test():
+    ''' Unit test for food_id
+    returns True if good, returns False and prints error if not
+    good
+    '''
+    works = True
+    if food_id('orange') != 'Citrus, Fruit':
+        works = False
+        print ('orange bug in food id()')
+    if food_id('banana') != 'NOT citrus, Fruit':
+        works = False
+        print ('banana bug in food_id()')
+        # Add tests so that all lines of code are visited during test
+        
+        if works:
+            print('food_id passed all tests')
+            return works
+    # Mon, 09 Dec 2019 13:14:38
+food_id_test()# Mon, 09 Dec 2019 13:18:00
+food_id_test():# Mon, 09 Dec 2019 13:18:04
+food_id_test()# Mon, 09 Dec 2019 13:21:29
+def food_id_test():
+    ''' Unit test for food_id
+    returns True if good, returns False and prints error if not
+    good
+    '''
+    works = True
+    if food_id('orange') != 'Citrus, Fruit':
+        works = False
+        print ('orange bug in food id()')
+    if food_id('banana') != 'NOT citrus, Fruit':
+        works = False
+        print ('banana bug in food_id()')
+        # Add tests so that all lines of code are visited during test
+        
+        if works:
+            print('food_id passed all tests')
+            return works
+    # Mon, 09 Dec 2019 13:21:33
+food_id_test()# Mon, 09 Dec 2019 13:22:03
+def food_id_test():
+    ''' Unit test for food_id
+    returns True if good, returns False and prints error if not
+    good
+    '''
+    works = True
+    if food_id('orange') != 'Citrus, Fruit':
+        works = False
+        print ('orange bug in food id()')
+    if food_id('banana') != 'NOT citrus, Fruit':
+        works = False
+        print ('banana bug in food_id()')
+        # Add tests so that all lines of code are visited during test
+        
+    if works:
+        print('food_id passed all tests')
+        return works
+    # Mon, 09 Dec 2019 13:22:06
+food_id_test()
